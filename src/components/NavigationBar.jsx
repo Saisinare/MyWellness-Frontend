@@ -18,6 +18,9 @@ const NavigationBar = () => {
           <Link to="/dashboard">Dashboard</Link>
         </li>
         <li className="hover:text-gray-300 transition-all duration-300 cursor-pointer">
+          <Link to="/recommendations">AI Recommendations</Link>
+        </li>
+        <li className="hover:text-gray-300 transition-all duration-300 cursor-pointer">
           <Link to="/chatbot">Chatbot</Link>
         </li>
       </ul>
